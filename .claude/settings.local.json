@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node -e \"JSON.parse\\(require\\(''fs''\\).readFileSync\\(''/Users/renztegrado/Documents/Sidequest/streamer-leaderboard/package.json'', ''utf8''\\)\\)\")",
+      "Bash(pnpm add:*)",
+      "Bash(pnpm approve-builds:*)",
+      "Bash(pnpm install:*)",
+      "Bash(npx prisma:*)",
+      "Bash(npx tsc:*)",
+      "Bash(git add:*)",
+      "Bash(git push:*)",
+      "Bash(find /Users/renztegrado/Documents/Sidequest/streamer-leaderboard -name .env* -o -name *.env)",
+      "Bash(grep -r \"leaderboard\\\\|campaign\" /Users/renztegrado/Documents/Sidequest/streamer-leaderboard/prisma --include=*.prisma)",
+      "Bash(ls:*)",
+      "Bash(npx tsx:*)",
+      "Bash(npx next:*)",
+      "Bash(curl -s http://localhost:3000/api/streamers/jared-garret)",
+      "Bash(npx -y json)",
+      "Bash(git commit -m ' *)",
+      "Bash(git commit --amend -m 'feat: highlight player row on /<slug> via pid query param *)",
+      "Skill(compound-engineering:agent-browser)",
+      "Bash(agent-browser open *)",
+      "Bash(agent-browser wait *)",
+      "Bash(agent-browser screenshot *)",
+      "Bash(curl -sS -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:3003/james-cameron)"
+    ]
+  }
+}
