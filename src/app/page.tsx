@@ -48,7 +48,7 @@ export default function Home() {
   return (
     <>
     {/* FIXED: Removed pb-24 so it doesn't leave a huge gap above the footer */}
-    <main className="w-full max-w-screen-2xl mx-auto px-6 md:px-12 3xl:px-[200px] flex flex-col gap-5 md:gap-8 relative pb-0 lg:pb-10">
+    <main className="w-full max-w-screen-2xl 3xl:max-w-[1920px] mx-auto px-6 md:px-12 3xl:px-[200px] flex flex-col gap-5 md:gap-8 relative pb-0 lg:pb-10">
       
       {/* 1. BRANDING (DISSOLVED HEADER) */}
       <div className="w-full relative z-20 flex flex-col items-center lg:flex-row lg:justify-between gap-4 lg:gap-0 mt-6 md:mt-8">
@@ -58,7 +58,7 @@ export default function Home() {
               Presented by
             </span>
             <span className="text-lg lg:text-sm font-bold text-brand-gold leading-tight mt-1 lg:mt-[2px]">
-              JUSTCASINO.IO
+              JUSTCASINO.COM
             </span>
           </div>
           <img
@@ -69,8 +69,8 @@ export default function Home() {
         </div>
 
         <div className="hidden lg:flex gap-4">
-          <PrimaryButton href="https://justcasino.io/kytbkll0i" target="_blank" rel="noopener noreferrer" className="px-6 py-2">Join Now</PrimaryButton>
-          <a href="https://justcasino.io/kytbkll0i" target="_blank" rel="noopener noreferrer" className="px-6 py-2 rounded-[4px] bg-transparent border border-white text-brand-offwhite font-bold text-sm hover:bg-brand-offwhite/10 transition-colors cursor-pointer inline-flex items-center justify-center">
+          <PrimaryButton href="https://justcasino.com/kytbkll0i" target="_blank" rel="noopener noreferrer" className="px-6 py-2">Join Now</PrimaryButton>
+          <a href="https://justcasino.com/kytbkll0i" target="_blank" rel="noopener noreferrer" className="px-6 py-2 rounded-[4px] bg-transparent border border-white text-brand-offwhite font-bold text-sm hover:bg-brand-offwhite/10 transition-colors cursor-pointer inline-flex items-center justify-center">
             Log In
           </a>
         </div>
@@ -81,7 +81,7 @@ export default function Home() {
 
       {/* 3. HOW IT WORKS (Desktop Position Only) */}
       <div className="hidden lg:block w-full relative z-20">
-        <HowItWorks ctaHref="https://justcasino.io/kytbkll0i" />
+        <HowItWorks ctaHref="https://justcasino.com/kytbkll0i" />
       </div>
 
       {/* 4. MAIN CONTENT GRID (Podium & Leaderboard) */}
@@ -125,12 +125,12 @@ export default function Home() {
       {/* 5. MOBILE BOTTOM SECTION (Flowchart + Buttons) */}
       {/* FIXED: Removed mb-8 so it sits flush with the footer */}
       <div ref={bottomButtonsRef} className="flex lg:hidden flex-col items-center gap-6 w-full relative z-20">
-        <HowItWorks ctaHref="https://justcasino.io/kytbkll0i" />
+        <HowItWorks ctaHref="https://justcasino.com/kytbkll0i" />
         <div className="flex h-14 items-center gap-3 justify-center w-screen -mx-6 px-4 bg-brand-dark/95 backdrop-blur-md border-t border-white/10">
-          <a href="https://justcasino.io/kytbkll0i" target="_blank" rel="noopener noreferrer" className="h-9 w-[61px] rounded-[4px] bg-[#121212] text-brand-gold font-bold text-[12px] border border-brand-gold cursor-pointer inline-flex items-center justify-center">
+          <a href="https://justcasino.com/kytbkll0i" target="_blank" rel="noopener noreferrer" className="h-9 w-[61px] rounded-[4px] bg-[#121212] text-brand-gold font-bold text-[12px] border border-brand-gold cursor-pointer inline-flex items-center justify-center">
             Log In
           </a>
-          <PrimaryButton href="https://justcasino.io/kytbkll0i" target="_blank" rel="noopener noreferrer" className="h-9 w-20 text-[12px]">
+          <PrimaryButton href="https://justcasino.com/kytbkll0i" target="_blank" rel="noopener noreferrer" className="h-9 w-20 text-[12px]">
             Join Now
           </PrimaryButton>
         </div>
@@ -145,10 +145,10 @@ export default function Home() {
           ${showSticky ? 'translate-y-0' : 'translate-y-full'}
         `}
       >
-        <a href="https://justcasino.io/kytbkll0i" target="_blank" rel="noopener noreferrer" className="h-9 w-[61px] rounded-[4px] bg-[#121212] text-brand-gold font-bold text-[12px] border border-brand-gold shadow-lg cursor-pointer inline-flex items-center justify-center">
+        <a href="https://justcasino.com/kytbkll0i" target="_blank" rel="noopener noreferrer" className="h-9 w-[61px] rounded-[4px] bg-[#121212] text-brand-gold font-bold text-[12px] border border-brand-gold shadow-lg cursor-pointer inline-flex items-center justify-center">
           Log In
         </a>
-        <PrimaryButton href="https://justcasino.io/kytbkll0i" target="_blank" rel="noopener noreferrer" className="h-9 w-20 text-[12px] shadow-lg">
+        <PrimaryButton href="https://justcasino.com/kytbkll0i" target="_blank" rel="noopener noreferrer" className="h-9 w-20 text-[12px] shadow-lg">
           Join Now
         </PrimaryButton>
       </div>

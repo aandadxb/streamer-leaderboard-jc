@@ -24,6 +24,7 @@ button, [role="button"] {
   --color-brand-gold: #FFC000;
   --color-brand-gold-dark: #CC9A00;
   --color-brand-gold-soft: #FBE3A3;
+  --color-brand-gold-light: #FFD555;
   --color-brand-offwhite: #F8FAFC;
   --color-brand-border: #D6D9E6;
   --color-surface-container: rgba(255, 255, 255, 0.03);
@@ -48,10 +49,10 @@ button, [role="button"] {
     50% { opacity: 1; transform: scale(1.02); }
   }
 
-  --breakpoint-xs: 360px;
-  --breakpoint-md: 768px;
-  --breakpoint-xl: 1280px;
-  --breakpoint-3xl: 1740px;
+  --breakpoint-xs: 22.5rem;
+  --breakpoint-md: 48rem;
+  --breakpoint-xl: 80rem;
+  --breakpoint-3xl: 108.75rem;
 }
 
 body {

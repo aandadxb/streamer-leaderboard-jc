@@ -18,7 +18,7 @@ export const Countdown: React.FC<CountdownProps> = ({
   <div className="border border-brand-offwhite/50 rounded-xl p-3 sm:p-4 md:p-6 bg-transparent w-full max-w-3xl">
     {/* Header Section */}
     <div className="flex justify-between items-center w-full mb-4 md:mb-6">
-      <span className="font-hero font-medium text-sm sm:text-base md:text-xl text-brand-offwhite opacity-90">
+      <span className="font-hero font-medium text-sm sm:text-base md:text-base text-brand-offwhite opacity-90">
         Ends in
       </span>
       <div className="bg-state-layer rounded-full px-2 py-1 sm:px-3 sm:py-1.5 md:px-5 md:py-2 flex items-center gap-1 md:gap-3">
@@ -42,10 +42,10 @@ export const Countdown: React.FC<CountdownProps> = ({
         <React.Fragment key={time.label}>
           {/* Number + Label */}
           <div className="flex-1 flex justify-center items-baseline gap-1 md:gap-2">
-            <span className="font-hero font-bold text-lg sm:text-2xl md:text-4xl text-brand-offwhite">
+            <span className="font-hero font-bold text-lg sm:text-2xl xl:text-[32px] xl:leading-[1.25] text-brand-offwhite">
               {time.value.toString().padStart(2, '0')}
             </span>
-            <span className="font-hero font-bold text-[10px] sm:text-xs md:text-lg text-brand-gold">
+            <span className="font-hero font-bold text-[10px] sm:text-xs md:text-sm text-brand-gold-light">
               {time.label}
             </span>
           </div>

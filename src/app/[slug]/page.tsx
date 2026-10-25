@@ -25,9 +25,9 @@ export default async function StreamerPage({
 
   if (!data) notFound();
 
-  const joinHref = data.streamer.registrationUrl || `https://justcasino.io/kytbkll0i?stag=${data.streamer.stag}`;
-  const ctaHref = data.streamer.ctaUrl || `https://justcasino.io/?stag=${data.streamer.stag}`;
-  const loginHref = data.streamer.loginUrl || 'https://justcasino.io/';
+  const joinHref = data.streamer.registrationUrl || `https://justcasino.com/kytbkll0i?stag=${data.streamer.stag}`;
+  const ctaHref = data.streamer.ctaUrl || `https://justcasino.com/?stag=${data.streamer.stag}`;
+  const loginHref = data.streamer.loginUrl || 'https://justcasino.com/';
 
   const topThree = data.leaderboard.podiumPlayers;
   const topPlayer = data.leaderboard.players[0];
@@ -41,7 +41,7 @@ export default async function StreamerPage({
 
   return (
     <>
-    <main className="w-full max-w-[1520px] mx-auto px-4 md:px-12 flex flex-col gap-5 md:gap-8 relative pb-0 lg:pb-10">
+    <main className="w-full max-w-screen-2xl 3xl:max-w-[1920px] mx-auto px-4 md:px-12 3xl:px-[200px] flex flex-col gap-5 md:gap-8 relative pb-0 lg:pb-10">
 
       {/* Header */}
       <div className="w-full relative z-20 flex flex-col items-center lg:flex-row lg:justify-between gap-4 mt-4 md:mt-8 pb-6 lg:pb-0">

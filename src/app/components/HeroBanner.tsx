@@ -63,7 +63,7 @@ export const HeroBanner: React.FC<HeroBannerProps> = ({
         <span className="font-hero font-medium text-white/90 mb-2 tracking-wide leading-tight max-w-full whitespace-normal break-words [overflow-wrap:anywhere]">
           {caption}
         </span>
-        <h1 className="font-hero font-bold text-4xl leading-[1.05] text-brand-gold uppercase drop-shadow-lg max-w-full whitespace-normal break-words [overflow-wrap:anywhere]">
+        <h1 className="font-hero font-bold text-2xl lg:text-[32px] xl:text-[40px] 2xl:text-5xl leading-[1.2] text-brand-gold uppercase drop-shadow-lg max-w-full lg:max-w-[330px] xl:max-w-[410px] 2xl:max-w-[470px] whitespace-normal break-words [overflow-wrap:anywhere]">
           {mainText}
         </h1>
       </div>

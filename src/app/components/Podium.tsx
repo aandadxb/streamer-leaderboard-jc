@@ -119,10 +119,10 @@ export const Podium: React.FC<PodiumProps> = ({
 
             <div className={`w-full rounded-lg border-[0.9px] ${getAmountBorderClass(player.rank)}`} style={{ background: 'linear-gradient(180deg, rgba(255, 255, 255, 0.16) -7.84%, rgba(255, 255, 255, 0) 109.62%)', backdropFilter: 'blur(5.41px)', WebkitBackdropFilter: 'blur(5.41px)' }}>
               <div className="rounded-[calc(0.5rem-0.9px)] px-1 sm:px-2 py-2 md:py-4 text-center w-full flex flex-col gap-0 md:gap-1">
-                <span className="font-hero font-bold text-[10px] md:text-[12px] text-white tracking-widest leading-tight">
+                <span className="font-hero font-bold md:font-medium text-[10px] md:text-base text-white tracking-widest md:tracking-normal leading-tight">
                   {amountLabel}
                 </span>
-                <span className="font-hero font-bold text-[16px] sm:text-[18px] md:text-[22px] tabular-nums whitespace-nowrap leading-tight text-brand-gold">
+                <span className={`font-hero font-bold text-[16px] sm:text-[18px] ${isFirst ? 'md:text-[32px]' : 'md:text-[20px]'} tabular-nums whitespace-nowrap leading-tight text-brand-gold`}>
                   {formatPodiumAmount(player.wagered)}
                 </span>
               </div>
