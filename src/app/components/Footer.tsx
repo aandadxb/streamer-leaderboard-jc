@@ -24,11 +24,8 @@ export const Footer: React.FC<FooterProps> = ({ termsHtml }) => {
               onClick={() => setShowTerms(true)}
               className="font-hero font-medium text-sm text-surface-variant transition-colors hover:text-white hover:underline"
             >
-              Terms and Conditions
+              Promotion Conditions
             </button>
-            <a href="#" className="font-hero font-medium text-sm text-surface-variant transition-colors hover:text-white hover:underline">
-              Privacy Policy
-            </a>
             <a href="https://www.justcasino.com/responsible-gaming" target="_blank" rel="noopener noreferrer" className="font-hero font-medium text-sm text-surface-variant transition-colors hover:text-white hover:underline">
               18+ Play Responsibly
             </a>

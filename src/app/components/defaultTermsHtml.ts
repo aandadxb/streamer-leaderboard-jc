@@ -1,6 +1,6 @@
 export const DEFAULT_TERMS_HTML = `
-<h1>Terms and Conditions</h1>
-<p><strong>JustCasino - Terms and Conditions</strong></p>
+<h1>Promotion Conditions</h1>
+<p><strong>JustCasino - Promotion Conditions</strong></p>
 <p><strong>Last updated:</strong> March 2026</p>
 
 <p>Welcome to JustCasino. By accessing or using our platform, you agree to be bound by these Terms and Conditions. Please read them carefully before participating in any promotions, leaderboards, or campaigns.</p>

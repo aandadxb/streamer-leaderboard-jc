@@ -39,7 +39,7 @@ export const TermsModal: React.FC<TermsModalProps> = ({ open, onClose, html }) =
       <div className="relative w-full max-w-3xl max-h-[86dvh] flex flex-col overflow-hidden rounded-[16px] border border-brand-gold/20 bg-surface-default shadow-[0_24px_80px_rgba(0,0,0,0.45),0_0_40px_rgba(255,192,0,0.12)]">
         {/* Header */}
         <div className="flex items-center justify-between gap-4 border-b border-white/10 px-4 py-4 sm:px-6 shrink-0">
-          <h2 className="font-hero text-base sm:text-lg font-bold text-brand-offwhite">Terms and Conditions</h2>
+          <h2 className="font-hero text-base sm:text-lg font-bold text-brand-offwhite">Promotion Conditions</h2>
           <button
             onClick={onClose}
             className="w-8 h-8 flex shrink-0 items-center justify-center rounded-[4px] border border-white/10 text-white/70 transition-colors hover:bg-white/10 hover:text-white"

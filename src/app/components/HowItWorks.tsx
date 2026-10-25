@@ -16,7 +16,7 @@ interface HowItWorksProps {
 
 const defaultSteps: Step[] = [
   { num: '1', title: 'SIGN UP', desc: 'By clicking here' },
-  { num: '2', title: 'DEPOSIT', desc: 'Using my code' },
+  { num: '2', title: 'DEPOSIT', desc: 'Get started here' },
   { num: '3', title: 'PLAY & WIN', desc: 'Sit back and enjoy' },
 ];
 
@@ -29,7 +29,7 @@ export const HowItWorks: React.FC<HowItWorksProps> = ({
   <section className="w-full bg-glass-gradient backdrop-blur-md border-[1px] border-brand-gold rounded-2xl p-6 xs:p-8 md:px-6 md:py-6 flex flex-col items-center lg:flex-row lg:justify-between gap-8 lg:gap-6 shadow-xl">
 
     {/* Title: Medium */}
-    <h3 className="font-hero font-medium text-xl md:text-[20px] text-white whitespace-nowrap text-center lg:text-left">
+    <h3 className="font-hero font-medium text-xl md:text-xl xl:text-2xl text-white whitespace-nowrap text-center lg:text-left">
       {title}
     </h3>
 
@@ -44,12 +44,12 @@ export const HowItWorks: React.FC<HowItWorksProps> = ({
                 {step.num}
               </div>
               {/* Title */}
-              <span className="font-hero font-bold text-brand-gold text-base md:text-[16px] uppercase leading-none tracking-wide whitespace-nowrap">
+              <span className="font-hero font-bold text-brand-gold-400 text-base md:text-base xl:text-lg uppercase leading-none tracking-wide whitespace-nowrap">
                 {step.title}
               </span>
             </div>
             {/* Description */}
-            <span className="font-hero font-medium text-brand-offwhite text-xs md:text-[9px] mt-1.5 md:ml-7 opacity-90 whitespace-nowrap">
+            <span className="font-hero font-medium text-brand-offwhite text-xs md:text-[11px] xl:text-sm mt-1.5 md:ml-7 opacity-90 whitespace-nowrap">
               {step.desc}
             </span>
           </div>
@@ -61,7 +61,7 @@ export const HowItWorks: React.FC<HowItWorksProps> = ({
               <div className="md:hidden w-[1px] h-8 bg-brand-offwhite/20 my-2" />
 
               {/* Horizontal line for Tablet/Desktop (Breakpoint 2/1) */}
-              <div className="hidden md:block w-10 lg:w-14 xl:w-16 h-[1px] bg-brand-offwhite/30 md:-mt-5" />
+              <div className="hidden md:block w-10 lg:w-8 xl:w-16 h-[1px] bg-brand-offwhite/30 md:-mt-5" />
             </>
           )}
         </React.Fragment>

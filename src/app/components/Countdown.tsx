@@ -45,7 +45,7 @@ export const Countdown: React.FC<CountdownProps> = ({
             <span className="font-hero font-bold text-lg sm:text-2xl xl:text-[32px] xl:leading-[1.25] text-brand-offwhite">
               {time.value.toString().padStart(2, '0')}
             </span>
-            <span className="font-hero font-bold text-[10px] sm:text-xs md:text-sm text-brand-gold-light">
+            <span className="font-hero font-bold text-[10px] sm:text-xs md:text-sm text-brand-gold-300">
               {time.label}
             </span>
           </div>

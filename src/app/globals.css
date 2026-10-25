@@ -24,7 +24,8 @@ button, [role="button"] {
   --color-brand-gold: #FFC000;
   --color-brand-gold-dark: #CC9A00;
   --color-brand-gold-soft: #FBE3A3;
-  --color-brand-gold-light: #FFD555;
+  --color-brand-gold-300: #FFD555;
+  --color-brand-gold-400: #FFC92E;
   --color-brand-offwhite: #F8FAFC;
   --color-brand-border: #D6D9E6;
   --color-surface-container: rgba(255, 255, 255, 0.03);
